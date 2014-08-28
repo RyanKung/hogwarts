@@ -1,7 +1,11 @@
-(ns hogwarts.core
-  (:gen-class))
+(ns lightbringer.core
+  (:use ring.adapter.jetty
+        ring.util.response
+        lightbringer.view)
+
+  (:require [net.cgrand.enlive-html :as html])
+)
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (run-jetty router {:port 8080}))
