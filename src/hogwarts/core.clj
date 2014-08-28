@@ -1,4 +1,4 @@
-(ns lightbringer.core
+(ns hogwarts.core
   (:use ring.adapter.jetty
         ring.util.response
         lightbringer.view)
