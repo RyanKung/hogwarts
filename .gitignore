@@ -1,3 +1,4 @@
+/node_modules
 /target
 /classes
 /checkouts
@@ -8,3 +9,5 @@ pom.xml.asc
 /.lein-*
 /.nrepl-port
 #*
+*#
+
