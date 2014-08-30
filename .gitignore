@@ -10,4 +10,4 @@ pom.xml.asc
 /.nrepl-port
 #*
 *#
-
+bower_components/
