@@ -18,7 +18,7 @@ npm:
 	npm install
 
 bower:
-	bower install -f
+	./nod_modules/.bin/bower install -f
 
 grunt: 
 	./node_modules/.bin/grunt $
